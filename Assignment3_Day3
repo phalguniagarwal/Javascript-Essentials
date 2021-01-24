@@ -1,4 +1,4 @@
-Solution 1:
+Solution 1: Code
 
 <script>
     var library = [
@@ -32,7 +32,7 @@ Solution 1:
 
 
 
-Solution 2:
+Solution 2:Code
 
 <script>
     var age = prompt("Enter your age")
