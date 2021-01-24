@@ -1,0 +1,27 @@
+Assignment 2:
+
+Question 1:
+<script>
+     const clothes=['jacket','t-shirt'];
+     clothes.length=0;
+      console.log(clothes[1]);
+</script>
+           
+Output: Undefined
+Reason: The length of the array "clothes" is defined zero. 
+If we change the length of the array to 1, and write console.log(clothes[0]), it will show jacket.
+if we change the length of the array to 1 but show output clothes[1], it will give output undefined as the length is defined as 1.
+if we change the length of array to 2, then console.log(clothes[0]] will show jacket and console.log(clothes[1]) will show t-shirt. 
+
+Question 2:
+
+
+<script>
+  var array = [16,27,38,40]
+  var sum = 0;
+  for(var i = 0; i < array.length; i++)
+  {
+  sum += array[i]
+  }
+console.log('Your sum is ' + sum);
+</script>
