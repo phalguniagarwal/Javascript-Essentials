@@ -1,0 +1,47 @@
+
+Solution 1:
+
+Elements by ID
+Example: var input=document.getElementById("name");
+
+Elements By tag name
+Example: var ele = document.getElementsByTagName("h1");
+         console.log(ele[0]);
+
+Elements By class name
+Example: var ele= document.getElementsByClassName("age");
+         console.log(ele[0].innerText);
+
+Elements By css selectors
+Example: var x = document.querySelectorAll("p.intro");
+
+
+Solution 2: 
+
+<html>
+<head>
+    <script>
+
+        function add()
+        {
+            var a,b,c;
+            a = Number(document.getElementById("first").value);
+            b = Number(document.getElementById("second").value);
+            c = a+b;
+           document.getElementById("ans").value=c;
+        
+        }
+        
+    </script>
+    
+</head>
+<body>
+   
+        Enter First Number: <input id="first"/>
+        <br>
+        Enter Secind Number: <input id="second"/>
+        <br>
+       <button onclick="add()">Add</button>
+       <input id="ans"/>
+</body>
+</html>
